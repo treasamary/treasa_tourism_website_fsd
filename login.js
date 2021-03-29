@@ -5,7 +5,7 @@ function login()
 		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 		if(uname =='')
 		{
-			alert("please enter user name.");
+			alert("please enter email id.");
 		}
 		else if(pwd=='')
 		{
@@ -15,7 +15,7 @@ function login()
 		{
 			alert("Enter valid email id.");
 		}
-		else if(pwd.length < 8 || pwd.length > 8)
+		else if(pwd.length < 6 || pwd.length > 6)
 		{
 			alert("Password minimum length is 8.");
 		}
