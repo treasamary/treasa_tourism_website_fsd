@@ -15,9 +15,9 @@ function login()
 		{
 			alert("Enter valid email id.");
 		}
-		else if(pwd.length < 6 || pwd.length > 6)
+		else if(pwd.length < 12 || pwd.length > 12)
 		{
-			alert("Password min and max length is 6.");
+			alert("Password minimum length is 8.");
 		}
 		else
 		{
